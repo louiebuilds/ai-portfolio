@@ -1,24 +1,27 @@
 # AI Resume Analyzer
 
-## Description
-This project uses AI and Natural Language Processing (NLP) to analyze resumes and provide feedback for improvement.
-
----
+## Overview
+AI Resume Analyzer is a Python-based project that analyzes resume text, extracts key information, compares candidate skills to a target job description, and generates recommendations for resume improvement.
 
 ## Features
-- Resume parsing
-- Skill extraction
-- Keyword analysis
-- AI-based recommendations
-
----
+- Extracts email and phone number
+- Identifies resume skills
+- Compares skills against a job description
+- Calculates a resume match score
+- Generates recommendations for improvement
+- Saves results to JSON output
 
 ## Tech Stack
 - Python
-- NLP (spaCy / NLTK)
-- Machine Learning
+- Regular Expressions
+- Basic NLP / Text Processing
+- JSON
 
----
-
-## Status
-🚧 In Progress
+## Project Structure
+```text
+ai-resume-analyzer/
+├── README.md
+├── requirements.txt
+├── data/
+├── outputs/
+└── src/
